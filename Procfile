@@ -1,3 +1,1 @@
-web: python run.py
-clock: python clock.py
-worker: python worker.py
+worker: node MusicBot.js
