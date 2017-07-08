@@ -21,7 +21,6 @@ client.Dispatcher.on(Event.MESSAGE_CREATE, (c) => {
 })
 
 client.Dispatcher.on(Event.GATEWAY_READY, () => {
-  msg.channel.sendMessage(`**FIRST YOU MUST TYPE tl?summon TO PLAY MUSIC** ``tl?play yt_link , tl?skip , tl?shuffle```);
   console.log('READY!')
 })
 
